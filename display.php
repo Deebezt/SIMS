@@ -64,7 +64,7 @@
                <table class="table table-bordered">
                	 
                	  <tr>
-                    <th>Transaction Id</th>
+                    <th>Id</th>
                     <td><?php echo $_SESSION['id']; ?></td>
                	  </tr>
 
@@ -75,18 +75,18 @@
                	  </tr>
 
                	   <tr>
-                    <th>Gmail</th>
+                    <th>Email</th>
                       <td><?php echo $_SESSION['gmail']; ?></td>
                	  </tr>
 
 
                	   <tr>
-                    <th>Telephone</th>
+                    <th>Phone Number</th>
                       <td><?php echo $_SESSION['telephone']; ?></td>
                	  </tr>
 
                	   <tr>
-                    <th>Dob</th>
+                    <th>DOB</th>
                     <td><?php echo $_SESSION['dob']; ?></td>
                	  </tr>
 
