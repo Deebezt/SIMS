@@ -1,0 +1,10 @@
+<?php
+  try{
+      $connect = new PDO("mysql:host=localhost; dbname=fpe", "root", "");
+      $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  }
+  catch(Exception $e){
+      echo "connection failed!".$e->getMessage();
+  }
+
+?>

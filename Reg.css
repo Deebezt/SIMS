@@ -1,0 +1,48 @@
+.student_reg {
+  font-size: 20px;
+  text-align: center;
+}
+
+body {
+  background: #04a50f;
+}
+.container {
+  padding: 20px 20px;
+}
+.main {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+}
+.main-list {
+  display: flex;
+  justify-content: space-between;
+}
+.main-list > div:nth-child(2) {
+  background: black;
+  padding: 7px 10px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main-list > div:nth-child(1) {
+  position: relative;
+  top: 5px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.zoom {
+  transition: transform 0.08s;
+  width: 214px;
+  height: 115px;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
